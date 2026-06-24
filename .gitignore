@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Build artifacts  
+*.log
+.DS_Store
+
+# Keep dist folder as it contains the bundled analytics
+# !dist/
