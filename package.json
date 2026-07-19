@@ -1,0 +1,23 @@
+{
+  "name": "notes-by-kanvar",
+  "version": "1.0.0",
+  "description": "Notes by Kanvar - University Exam-Oriented MBBS Notes",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "build": "esbuild analytics.js --bundle --minify --outfile=dist/analytics.js",
+    "postinstall": "npm run build"
+  },
+  "keywords": [
+    "notes",
+    "mbbs",
+    "education"
+  ],
+  "author": "Kanvar",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}
